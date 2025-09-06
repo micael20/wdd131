@@ -1,0 +1,110 @@
+/* Universal Styles and Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: #f0f0f0; 
+    line-height: 1.6; 
+
+}
+
+/* Typography */
+h1, h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400; 
+    margin-bottom: 10px; 
+}
+
+p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px; 
+}
+
+/* Header & Navigation */
+header {
+    margin-bottom: 20px;
+    background-color: #002D62; 
+}
+
+#course-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900; 
+    font-size: 1.5em; 
+    color: white;
+    text-align: center;
+    padding: 20px 0; 
+    margin: 0 auto; 
+    display: block; 
+}
+
+nav {
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    padding: 10px 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffd700;
+    text-decoration: underline;
+}
+
+
+/* Main Content Layout */
+main {
+    max-width: 960px; 
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #F5F5DC;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* Card Sections - Flexbox Layout */
+.card_container1, .card_container2 {
+    display: flex; 
+    gap: 30px; 
+    align-items: center; 
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card_container2 {
+    flex-direction: row-reverse; 
+}
+
+.card_container1 img, .card_container2 img {
+    border-radius: 10px; 
+    object-fit: cover; 
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: white;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0; 
+    font-size: 0.9em;
+}
