@@ -1,0 +1,42 @@
+@media screen and (max-width: 768px) {
+    .header-content {
+        justify-content: space-between;
+    }
+    
+    .hamburger-menu {
+        display: block; /* Show hamburger button on mobile */
+    }
+
+    nav {
+        display: none; /* Hide nav by default on mobile */
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #004080;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    nav.open {
+        display: block; /* Show nav when the 'open' class is active */
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    nav ul li {
+        width: 100%;
+    }
+
+    figure {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 7px;
+        top: 0;
+        width: 100%;
+    }
+}
