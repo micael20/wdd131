@@ -1,3 +1,11 @@
+const hamButton = document.querySelector('.hamburger-menu');
+const nav = document.querySelector('nav');
+
+hamButton.addEventListener('click', () => {
+    nav.classList.toggle('open');
+    hamButton.classList.toggle('open');
+});
+
 window.onload = function() {
     // This is the first part of your task. We need to get the current year.
     // We create a new Date object, which holds all the current date and time information.
@@ -30,12 +38,3 @@ window.onload = function() {
         modifiedElement.textContent = "Last Modification: " + lastModifiedDate;
     }
 }
-
-window.onload = function() {
-    const hamButton = document.querySelector('.hamburger-menu');
-    const nav = document.querySelector('nav');
-
-    hamButton.addEventListener('click', () => {
-        nav.classList.toggle('open');
-    });
-};

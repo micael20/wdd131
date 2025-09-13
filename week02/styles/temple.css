@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, sans-serif;
+}
+
 header {
     background-color: blue;
     color: white;
@@ -11,12 +15,32 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: Arial, sans-serif;
 }
 
-header h1 {
+main{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+}
+
+main h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+h1 {
     font-size: 1.5rem;
-    font-weight: bold;
 }
 
 nav ul {
@@ -36,39 +60,31 @@ nav a:hover {
     background-color: darkblue;
 }
 
-nav ul li {
-    font-weight: normal;
+.hamburger-menu {
+    display: none; 
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
 }
 
-main {
-    max-width: 800px;
-    margin: 20px auto; /* Added margin to center the main content */
-    padding: 0 1rem; /* Added padding for smaller screens */
-}
-
-main h1 {
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-figure {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 2rem;
+.hamburger-menu.open::after {
+    content: "╳";
 }
 
 figcaption {
-    font-size: medium-large;
     text-align: center;
-    margin-bottom: 10px;
-    
+    padding: 5px;   
+    color: black;
 }
 
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #1a1a1a;
+footer{
+    background-color: blue;
     color: white;
-    margin-top: 20px;
-
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
