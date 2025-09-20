@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Michael Mwidete">
+    <meta name="description" content="Country Page">
+    
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ojuju:wght@700&display=swap" rel="stylesheet">
+
+    <script src="scripts/place.js" defer></script> 
+
+    <title>Country-Page</title>
+</head>
+
+<body>
+    <header>
+        <h1>Tanzania</h1>
+    </header>
+
+    <main>
+
+        <div class="hero-container">
+            <img src="images/dar.webp" alt="Askari Monument">
+            <div class="hero-overlay">
+                <section class="data">
+                    <h2>Data</h2>
+                    <label for="Area">Area (in km²): </label>
+                    <input type="text" id="Area" value="947,303" readonly>
+                    <br>
+                    <label for="capital">Capital: </label>
+                    <input type="text" id="capital" value="Dodoma" readonly>
+                    <br>
+                    <label for="currency">Currency: </label>
+                    <input type="text" id="currency" value="Tanzanian shilling" readonly>
+                    <br>
+                    <label for="language">Language: </label>
+                    <input type="text" id="language" value="Swahili, English" readonly>
+                    <br>
+                    <label for="timezone">Time Zone: </label>
+                    <input type="text" id="timezone" value="UTC+3 (EAT)" readonly>
+                    <br>
+                    <label for="calling-code">Calling Code: </label>
+                    <input type="text" id="calling-code" value="+255" readonly>
+                    <br>
+                    <label for="ISO">ISO 3166 Code: </label>
+                    <input type="text" id="ISO" value="TZ" readonly>
+                    <br>
+                </section>
+
+                <section class="Weather">
+                    <h2>Weather</h2>
+                    <br>
+                    <label for="temperature">Annual Temperature: </label>
+                    <input type="text" id="temperature" value="20 Celsius">
+                    <br>
+                    <label for="rainfall">Annual Rainfall: </label>
+                    <input type="text" id="rainfall" value="40inches - 60inches">
+                    <br>
+                    <label for="windspeed">Average Wind Speed: </label>
+                    <input type="text" id="windspeed" value="1.6m/s - 5.1m/s">
+                    <br>
+                    <label for="humidity">Annual Relative Humidity: </label>
+                    <input type="text" id="humidity" value="77.9%">
+                </section>
+            </div>
+        </div> 
+
+    </main>
+
+    <footer>
+        <p> <span id="currentyear"></span></p>
+        <p> <span id="lastmodified"></span></p>
+    </footer>
+    
+</body>
+</html>

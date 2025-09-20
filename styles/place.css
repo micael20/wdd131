@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color:blue;
+    --secondary-color:yellow;
+    --tertiary-color:green;
+    --advance-color:black;
+    --font-family: 'Ojuju', cursive;
+}
+
+header {
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}    
+
+h1 {
+    background-color: var(--secondary-color);
+    color: var(--advance-color);
+    text-align: center;
+    font-family:var(--font-family);
+    font-size: 3rem;
+    padding: 10px;
+}
+
+h2 {
+    background-color: var(--tertiary-color);
+    color: var(--advance-color);
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 2rem;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+label {
+    font-family: var(--font-family);
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 10px;
+    color: var(--advance-color);
+}
+
+input{
+    font-family: var(--font-family);
+    font-size: 1.2rem;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+    border-radius: 5px;
+    color: var(--advance-color);
+}
+
+
+.data {
+    width: 90%;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    top: 20px;
+    right: 20px;
+
+}
+
+.Weather {
+    width: 90%;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    bottom: 20px;
+    left: 20px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-overlay {
+    background-color: none;
+
+}
+
+
+.hero-container {
+    position: relative;
+    width: 100%;
+    min-height: 80vh; 
+    overflow: hidden;
+}
+
+.hero-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.8);
+}
+
+h2 svg {
+  margin-right: 5px;
+}
+
+footer {
+    font-family: var(--font-family);
+    background-color:var(--secondary-color);
+    color: var(--advance-color);
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size:3 rem;
+}
