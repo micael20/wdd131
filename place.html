@@ -26,7 +26,10 @@
     <main>
 
         <div class="hero-container">
+            <picture>
+            <source srcset="images/dar-large.webp" media="(min-width: 1200px)">
             <img src="images/dar.webp" alt="Askari Monument">
+            </picture>
             <div class="hero-overlay">
                 <section class="data">
                     <h2>Data</h2>
@@ -54,7 +57,9 @@
                 </section>
 
                 <section class="Weather">
-                    <h2>Weather</h2>
+                    <h2>Weather
+                        <img src="images/weather-icon.svg" alt="Weather Icon" style="width:24px;height:24px;vertical-align:middle;">
+                    </h2>
                     <br>
                     <label for="temperature">Annual Temperature: </label>
                     <input type="text" id="temperature" value="20 Celsius">

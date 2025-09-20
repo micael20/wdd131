@@ -91,11 +91,6 @@ main {
     flex-direction: column;
 }
 
-.hero-overlay {
-    background-color: none;
-
-}
-
 
 .hero-container {
     position: relative;
@@ -124,5 +119,4 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-    font-size:3 rem;
 }
