@@ -45,7 +45,6 @@
         width: 30px; 
         height: 30px; 
         margin-left: 10px; 
-        background-image: url('/images/weather-icon.svg'); 
         background-size: contain; 
         background-repeat: no-repeat;
         vertical-align: middle; 
