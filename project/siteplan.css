@@ -1,0 +1,55 @@
+
+:root {
+    --primary: #003366;     /* Deep Navy Blue */
+    --accent: #D4AF37;      /* Muted Gold */
+    --text: #333333;        /* Dark Charcoal Gray */
+    --background: #FAFAFA;  /* Off-White */
+}
+
+
+body {
+    font-family: 'Fauna One', serif;
+    color: var(--text);
+    background-color: var(--background);
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Cinzel', serif;
+    color: var(--primary);
+}
+
+h1 {
+    font-weight: 900; /* Black */
+    border-bottom: 3px solid var(--accent);
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-weight: 700; /* Bold */
+    margin-top: 30px;
+}
+
+.accent {
+    color: var(--accent);
+    font-weight: bold;
+}
+
+.color-swatch {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.section {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
