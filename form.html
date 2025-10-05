@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Michael Mwidete">
+    <meta name="description" content="This is an assignment for week 5 that require to build
+    a form that collects user input and displays the submitted data on a confirmation page.">
+    <title>Product Review</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wdth@99.9&display=swap" rel="stylesheet">
+
+    <script src="scripts/form.js" defer></script>
+    <link rel="stylesheet" href="styles/form.css">
+
+    <link rel="stylesheet" href="styles/form-larger.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+
+    <main>
+        <form id="reviewform" action="review.html" method="get">
+            <div class="form-group">
+                <label for="ProductName">Product Name</label>
+                <select id="ProductName" name="ProductName" required>
+                    <option value="" disabled selected>Select a product</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="OverallRating">Overall Rating</label>
+                <div class="rating-stars">
+                    <label for="star5">⭐⭐⭐⭐⭐</label>
+                    <input type="radio" id="star5" name="rating" value="5" required>
+
+                    <label for="star4">⭐⭐⭐⭐</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+
+                    <label for="star3">⭐⭐⭐</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+
+                    <label for="star2">⭐⭐</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+
+                    <label for="star1">⭐</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="installdate">Date of Installation</label>
+                <input type="date" id="installdate" name="installdate" required>
+            </div>
+
+            <div class="form-group">
+                <label for="features">Which features did you find useful in the product?
+                    (Check all that apply)</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" id="feature1" name="features" value="Durability"> Durability</label>
+                    <label><input type="checkbox" id="feature2" name="features" value="Ease of Use"> Ease of Use</label>
+                    <label><input type="checkbox" id="feature3" name="features" value="Performance"> Performance</label>
+                    <label><input type="checkbox" id="feature4" name="features" value="Design"> Design</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="writtenreview">Written Review</label>
+                <textarea id="writtenreview" name="writtenreview" rows="4" placeholder="Optional"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="username">Your Name</label>
+                <input type="text" id="username" name="username" placeholder="Optional">
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Post Review">
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <p © span id="currentyear"></span></p>
+        <p span id="lastmodified"></span></p>
+    </footer>
+        
+
+</body>
+
+</html>

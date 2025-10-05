@@ -1,0 +1,14 @@
+
+@media screen and  (max-width: 768px) {
+    main {
+        margin: 1rem auto;
+    }
+
+    form {
+        padding: 1.5rem;
+    }
+
+    .rating-stars label {
+        font-size: 1.5rem;
+    }
+}
