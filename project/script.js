@@ -17,7 +17,7 @@ const vesselClasses = [
             {
                 name: "Submarine",
                 description: "Underwater vessel capable of independent operation below the surface of the water.",
-                image: "images/submarine-vessel.jpeg"
+                image: "/images/submarine-vessel.jpeg"
             },
             {
                 name: "Destroyer",
@@ -32,17 +32,17 @@ const vesselClasses = [
             {
                 name: "Container Ship",
                 description: "Carries goods in large metal containers that can be easily loaded and unloaded.",
-                image: "images/container-ship.jpeg"
+                image: "/images/container-ship.jpeg"
             },
             {
                 name: "Ro-Ro Ship",
                 description: "Designed to carry wheeled cargo that can be rolled on and off the ship.",
-                image: "/images/Ro-Ro-Ship.jpeg"
+                image: "/images/Ro-Ro-ship.jpeg"
             },
             {
                 name: "Refrigerated Ship",
                 description: "Specialized vessel with cooling systems to transport perishable food items.",
-                image: "images/reefer-ship.jpeg"
+                image: "/images/reefer-ship.jpeg"
             },
 
             {
@@ -202,12 +202,12 @@ const vesselClasses = [
             {
                 name: "Drilling Ships",
                 description: "Mobile vessels capable of drilling oil wells in deep ocean waters.",
-                image: "images/drilling-ship.jpeg"
+                image: "/images/drilling-ship.jpeg"
             },
             {
                 name: "Jack Up Rigs",
                 description: "Mobile platforms with extendable legs that stand on the sea floor for drilling.",
-                image: "images/jack-up-rig.jpeg"
+                image: "/images/jack-up-rig.jpeg"
             },
             {
                 name: "FPSO",
