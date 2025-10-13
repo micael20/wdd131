@@ -1,4 +1,3 @@
-// Simple vessel data organized by class with REAL ship images
 const vesselClasses = [
     {
         className: "Naval Vessels",
