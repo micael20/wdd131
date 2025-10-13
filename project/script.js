@@ -188,11 +188,7 @@ const vesselClasses = [
                 description: "Twin-hulled design providing excellent stability and speed.",
                 image: "/images/catamaran.jpeg"
             },
-            {
-                name: "Axe Bow",
-                description: "Innovative bow design that cuts through waves for smoother high-speed travel.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Fast_ferry.jpg/400x250.jpg"
-            },
+
             {
                 name: "SWATH",
                 description: "Small Waterplane Area Twin Hull design for exceptional stability in rough seas.",
