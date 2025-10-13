@@ -17,7 +17,8 @@ const vesselClasses = [
             {
                 name: "Submarine",
                 description: "Underwater vessel capable of independent operation below the surface of the water.",
-                image: "images/submarine-vessel.jpeg"
+                image: "images/submarine-vessel.webp"
+                
             },
             {
                 name: "Destroyer",
@@ -32,7 +33,7 @@ const vesselClasses = [
             {
                 name: "Container Ship",
                 description: "Carries goods in large metal containers that can be easily loaded and unloaded.",
-                image: "images/container-ship.jpeg"
+                image: "/images/container-ship.webp"
             },
             {
                 name: "Ro-Ro Ship",
@@ -42,7 +43,7 @@ const vesselClasses = [
             {
                 name: "Refrigerated Ship",
                 description: "Specialized vessel with cooling systems to transport perishable food items.",
-                image: "images/reefer-ship.jpeg"
+                image: "/images/drill-ship.webp"
             },
 
             {
@@ -191,7 +192,7 @@ const vesselClasses = [
             {
                 name: "Axe Bow",
                 description: "Innovative bow design that cuts through waves for smoother high-speed travel.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Fast_ferry.jpg/400x250.jpg"
+                image: "/images/axe-bow-ship.webp"
             },
             {
                 name: "SWATH",
@@ -206,12 +207,12 @@ const vesselClasses = [
             {
                 name: "Drilling Ships",
                 description: "Mobile vessels capable of drilling oil wells in deep ocean waters.",
-                image: "images/drilling-ship.jpeg"
+                image: "/images/drill-ship.webp"
             },
             {
                 name: "Jack Up Rigs",
                 description: "Mobile platforms with extendable legs that stand on the sea floor for drilling.",
-                image: "images/jack-up-rig.jpeg"
+                image: "/images/jack-up-rig.webp"
             },
             {
                 name: "FPSO",
