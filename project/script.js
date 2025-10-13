@@ -1,4 +1,3 @@
-// Simple vessel data organized by class with REAL ship images
 const vesselClasses = [
     {
         className: "Naval Vessels",
@@ -17,7 +16,7 @@ const vesselClasses = [
             {
                 name: "Submarine",
                 description: "Underwater vessel capable of independent operation below the surface of the water.",
-                image: "/images/submarine-vessel.jpeg"
+                image: "images/submarine-vessel.jpeg"
             },
             {
                 name: "Destroyer",
@@ -32,7 +31,7 @@ const vesselClasses = [
             {
                 name: "Container Ship",
                 description: "Carries goods in large metal containers that can be easily loaded and unloaded.",
-                image: "/images/container-ship.jpeg"
+                image: "images/container-ship.jpeg"
             },
             {
                 name: "Ro-Ro Ship",
@@ -42,7 +41,7 @@ const vesselClasses = [
             {
                 name: "Refrigerated Ship",
                 description: "Specialized vessel with cooling systems to transport perishable food items.",
-                image: "/images/reefer-ship.jpeg"
+                image: "images/reefer-ship.jpeg"
             },
 
             {
@@ -188,7 +187,11 @@ const vesselClasses = [
                 description: "Twin-hulled design providing excellent stability and speed.",
                 image: "/images/catamaran.jpeg"
             },
-
+            {
+                name: "Axe Bow",
+                description: "Innovative bow design that cuts through waves for smoother high-speed travel.",
+                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Fast_ferry.jpg/400x250.jpg"
+            },
             {
                 name: "SWATH",
                 description: "Small Waterplane Area Twin Hull design for exceptional stability in rough seas.",
@@ -202,12 +205,12 @@ const vesselClasses = [
             {
                 name: "Drilling Ships",
                 description: "Mobile vessels capable of drilling oil wells in deep ocean waters.",
-                image: "/images/drilling-ship.jpeg"
+                image: "images/drilling-ship.jpeg"
             },
             {
                 name: "Jack Up Rigs",
                 description: "Mobile platforms with extendable legs that stand on the sea floor for drilling.",
-                image: "/images/jack-up-rig.jpeg"
+                image: "images/jack-up-rig.jpeg"
             },
             {
                 name: "FPSO",
